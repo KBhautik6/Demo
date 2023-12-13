@@ -10,6 +10,7 @@ export const StyledButton = styled.button`
     margin:10px;
     cursor: pointer;
 `;
+
 export const SecondButton = styled.button`
     color: #4a4a68;
     margin:10px;
@@ -19,6 +20,7 @@ export const SecondButton = styled.button`
     padding:11px 28px;
     cursor: pointer;
 `;
+
 export const ThridButton=styled.button`
     color: #f6f9fc;
     margin:10px;
@@ -28,6 +30,7 @@ export const ThridButton=styled.button`
     padding:11px 28px;
     cursor: pointer;
 `;
+
 export const FourthButton=styled.button`
     color: #f6f9fc;
     margin:10px;
@@ -37,6 +40,9 @@ export const FourthButton=styled.button`
     padding:11px 28px;
     cursor: pointer;
 `;
+
+/* new stories is going to begining */
+
 export const Primarybuttonhover=styled.button`
     border:1px solid black;
     color: #FF4E54;
@@ -46,12 +52,14 @@ export const Primarybuttonhover=styled.button`
     padding:11px 28px;
     margin:10px;
     cursor: pointer;
+
     &:hover,
     active{
         background-color:#FF4E54;
         color:#f6f9fc;
     }
 `
+
 export const SecondButtonhover = styled.button`
     color: #4a4a68;
     margin:10px;
@@ -60,12 +68,14 @@ export const SecondButtonhover = styled.button`
     background-color:#f6f9fc;
     padding:11px 28px;
     cursor: pointer;
+
     &:hover,
     active{
         background-color:#4a4a68;
         color:#f6f9fc;
     }
 `;
+
 export const ThridButtonhover=styled.button`
     color: #4CAF50;
     margin:10px;
@@ -74,6 +84,7 @@ export const ThridButtonhover=styled.button`
     background-color:#f6f9fc;
     padding:11px 28px;
     cursor: pointer;
+
     &:hover,
     active{
         background-color:#4CAF50;
@@ -88,14 +99,14 @@ export const FourthButtonhover=styled.button`
     background-color:#f6f9fc;
     padding:11px 28px;
     cursor: pointer;
+
     &:hover,
     active{
         background-color:#4CAF50;
         color:#f6f9fc;
     }
 `
-
-
+/* new stories is going to begining */
 
 export const Save_hover=styled.button`
   border: 2px solid; // Add a unit (e.g., pixels)
@@ -109,6 +120,7 @@ export const Save_hover=styled.button`
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+
   &:hover,
   &:active {
     background-color: #ff4e54;
@@ -128,12 +140,15 @@ export const Save_new=styled.button`
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+
   &:hover,
   &:active {
     background-color: #ff4e54;
     color: black;
   }
 `
+/* new stories is going to begining */
+
 export const P1 =styled.button`
     color: #FF4E54;
     margin:10px;
@@ -143,6 +158,7 @@ export const P1 =styled.button`
     padding:11px 28px;
     cursor: pointer;
 `;
+
 export const P2 =styled.button`
    color: #4a4a68;
     margin:10px;
@@ -152,6 +168,7 @@ export const P2 =styled.button`
     padding:11px 28px;
     cursor: pointer;
 `
+
 export const P3 =styled.button`
    color: #4CAF50;
     margin:10px;
@@ -161,6 +178,7 @@ export const P3 =styled.button`
     padding:11px 28px;
     cursor: pointer;
 `
+
 export const P4 =styled.button`
     color: #ff9800;
     margin:10px;
