@@ -19,12 +19,14 @@ export const Primary=styled.div`
   color:${theme.offwhite};
 
 `;
+
 export const Secondary=styled.div`
  ${common};
  background-color:${theme.secondaryhover};
   color:${theme.defaultcolor};
 
 `;
+
 export const Sucesson=styled.div`
    ${common}
    background-color:${theme.successcolor};
@@ -37,6 +39,8 @@ export const Warning=styled.div`
    background-color:${theme.warningcolor};
    color:${theme.offwhite}
 `;
+
+/* new stories start */
 
 export const Primaryoutline=styled.div`
    ${common}
