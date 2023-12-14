@@ -1,3 +1,10 @@
 .App{
   color: black;
+  font-size: 44px;
+}
+p{
+  font-size: 22px;
+}
+p:hover{
+  color: blue;
 }
