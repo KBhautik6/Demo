@@ -1,5 +1,5 @@
 import styled,{css} from "styled-components";
-
+import {avatar} from '../theme'
 export const common=css`
     display: flex;
    flex-direction: row;
@@ -13,22 +13,19 @@ export const common=css`
 
 export const Images1=styled.img`
     ${common};
-    width:50px;
-    height:50px;
+    ${avatar.small}
     border-radius:50%;
 `
 
 export const Images2=styled.img`
     ${common};
-    width:60px;
-    height:60px;
+    ${avatar.medium}
     border-radius:50%;
     
 `
 export const Images3=styled.img`
     ${common};
-    width:70px;
-    height: 80px;
+    ${avatar.large}
     border-radius:50%;
     
 `
@@ -41,20 +38,17 @@ export const radiuscommon=css`
 export const CircularImages1=styled.img`
     ${common};
     ${radiuscommon};
-    width:50px;
-    height:50px;
+    ${avatar.small}
 `
 
 export const CircularImages2=styled.img`
     ${common};
     ${radiuscommon};
-    width:60px;
-    height:60px;
+    ${avatar.medium}
 `
 
 export const CircularImages3=styled.img`
     ${common};
     ${radiuscommon};
-    width:70px;
-    height:70px;
+    ${avatar.default};
 `

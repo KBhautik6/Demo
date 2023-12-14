@@ -1,42 +1,42 @@
 import styled from 'styled-components';
+import {theme} from "../theme"
 
-
-export const StyledButton = styled.button`
-    color: #F6F9FC;
+export const PrimaryButton = styled.button`
+    color: ${theme.offwhite};
     font:14px 'Arial';
     border: none;
-    background-color:#FF4E54;
+    background-color:${theme.primarycolor};
     padding:11px 28px;
     margin:10px;
     cursor: pointer;
 `;
 
-export const SecondButton = styled.button`
-    color: #4a4a68;
+export const SecondaryButton = styled.button`
+    color: ${theme.defaultcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#F3F4F6;
+    background-color: ${theme.secondarycolor};
     padding:11px 28px;
     cursor: pointer;
 `;
 
-export const ThridButton=styled.button`
-    color: #f6f9fc;
+export const SuccesonButton=styled.button`
+    color: ${theme.offwhite};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#4CAF50;
+    background-color:${theme.successcolor};
     padding:11px 28px;
     cursor: pointer;
 `;
 
-export const FourthButton=styled.button`
-    color: #f6f9fc;
+export const WarningButton=styled.button`
+    color: #f6f9fc ${theme.offwhite};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#ff9800;
+    background-color:${theme.warningcolor};
     padding:11px 28px;
     cursor: pointer;
 `;
@@ -45,54 +45,54 @@ export const FourthButton=styled.button`
 
 export const Primarybuttonhover=styled.button`
     border:1px solid black;
-    color: #FF4E54;
+    color:  ${theme.primarycolor};
     font:14px 'Arial';
     border: none;
-    background-color:#f6f9fc;
+    background-color:${theme.primaryhover};
     padding:11px 28px;
     margin:10px;
     cursor: pointer;
 
     &:hover,
     active{
-        background-color:#FF4E54;
-        color:#f6f9fc;
+        background-color:${theme.primarycolor};
+        color:${theme.offwhite};
     }
 `
 
 export const SecondButtonhover = styled.button`
-    color: #4a4a68;
+    color: ${theme.defaultcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color:#f6f9fc ${theme.offwhite};
     padding:11px 28px;
     cursor: pointer;
 
     &:hover,
     active{
-        background-color:#4a4a68;
-        color:#f6f9fc;
+        background-color: ${theme.defaultcolor};
+        color: ${theme.offwhite};
     }
 `;
 
-export const ThridButtonhover=styled.button`
-    color: #4CAF50;
+export const SuccesonButtonhover=styled.button`
+    color: ${theme.successcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color: ${theme.offwhite};
     padding:11px 28px;
     cursor: pointer;
 
     &:hover,
     active{
-        background-color:#4CAF50;
-        color:#f6f9fc;
+        background-color: ${theme.successcolor}; 
+        color:${theme.offwhite};
     }
 `
-export const FourthButtonhover=styled.button`
-    color: #ff9800;
+export const WarningButtonhover=styled.button`
+    color: ${theme.dangercolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
@@ -102,18 +102,18 @@ export const FourthButtonhover=styled.button`
 
     &:hover,
     active{
-        background-color:#4CAF50;
-        color:#f6f9fc;
+        background-color: ${theme.successcolor};
+        color: ${theme.whiteoff};
     }
 `
 /* new stories is going to begining */
 
 export const SaveHover=styled.button`
   border: 2px solid; // Add a unit (e.g., pixels)
-  background-color: #f3f4f6;
+  background-color:  ${theme.secondarycolor};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  color: #ff4e54;
+  color:  ${theme.primarycolor};
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -123,17 +123,17 @@ export const SaveHover=styled.button`
 
   &:hover,
   &:active {
-    background-color: #ff4e54;
-    color: #ffffff;
+    background-color: ${theme.primarycolor};
+    color: ${theme.white};
   }
 `
 
 export const SaveNew=styled.button`
-  border: 2px solid #ff4e54; // Add a unit (e.g., pixels)
-  background-color: #ff4e54;
+  border: 2px solid  ${theme.primarycolor}; // Add a unit (e.g., pixels)
+  background-color:  ${theme.primarycolor};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  color: white;
+  color: ${theme.white};
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -143,48 +143,48 @@ export const SaveNew=styled.button`
 
   &:hover,
   &:active {
-    background-color: #ff4e54;
-    color: black;
+    background-color:  ${theme.primarycolor};
+    color: ${theme.black};
   }
 `
 /* new stories is going to begining */
 
-export const P1 =styled.button`
-    color: #FF4E54;
+export const PrimaryLink =styled.button`
+    color:  ${theme.primarycolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color:${theme.offwhite};
     padding:11px 28px;
     cursor: pointer;
 `;
 
-export const P2 =styled.button`
-   color: #4a4a68;
+export const SecondaryLink =styled.button`
+   color: ${theme.defaultcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color: ${theme.offwhite};
     padding:11px 28px;
     cursor: pointer;
 `
 
-export const P3 =styled.button`
-   color: #4CAF50;
+export const SuccesonLink =styled.button`
+   color: ${theme.defaultcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color:${theme.offwhite}; 
     padding:11px 28px;
     cursor: pointer;
 `
 
-export const P4 =styled.button`
-    color: #ff9800;
+export const WarningLink =styled.button`
+    color: ${theme.warningcolor};
     margin:10px;
     border: none;
     font:14px 'Arial';
-    background-color:#f6f9fc;
+    background-color: ${theme.offwhite};
     padding:11px 28px;
     cursor: pointer;
     align-items:center;

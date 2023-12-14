@@ -1,38 +1,77 @@
 import React from 'react';
-import { Badges1,Badges2,Badges3 } from './Badges.Styled'
-const c={
-    divcontainer: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        maxWidth: '30%', 
-        height: 'auto',
-        marginLeft:'50px',
-        marginBottom: '10px', 
-        borderRadius:'50px',
-      },
-      icon:{
-        position:'relative',
-        top: 0,
-        right: 0,
-        width: '20px',
-        height: '20px',
-        backgroundColor: 'green',
-        borderRadius: '50%',
-        border: '2px solid white',
+import {
+  Container,
+  SmImageStyled,
+  BadgeContainer,
+  SmallBadgesStyled,
+  MlBadgesStyled,
+  MlImageStyled,
+  BadgemlContainer,
+  BadgelgContainer,
+  NumberBadgeThird,
+  NumberBadgeSecond,
+  NumberBadgeFirst,
+  LgBadgesStyled,
+  LgImageStyled,
+  BadgeImageFirst,
+  BadgeImageSecond,
+  BadgeImageThird,
+  BadgesContainerFirst,
+  BadgesContainerSecond,
+  BadgesContainerThird, // Corrected component name
+} from './Badges.Styled';
 
-      }
-}
-export const Badges=()=>{
-    return(
-        <div style={c.divcontainer}>
-            <Badges1 src="https://i.pravatar.cc/60">
-            </Badges1>
-            <div className={c.icon}></div>
-            <Badges2 src="https://i.pravatar.cc/100">
-            </Badges2>
-            <Badges3 src="https://i.pravatar.cc/150">
-            </Badges3>
-        </div>
-    );
+export const YourComponent = () => {
+  return (
+    <Container>
+      <BadgeContainer>
+        <SmImageStyled src="https://i.pravatar.cc/60" alt="Your Alt Text" />
+        <SmallBadgesStyled />
+      </BadgeContainer>
+
+      <BadgemlContainer>
+        <MlImageStyled src="https://i.pravatar.cc/61" alt="Your Alt Text" />
+        <MlBadgesStyled />
+      </BadgemlContainer>
+
+      <BadgelgContainer>
+        <LgImageStyled src="https://i.pravatar.cc/64" alt="Your Alt Text" />
+        <LgBadgesStyled />
+      </BadgelgContainer>
+    </Container>
+  );
 };
+
+export const Badges = () => {
+    return (
+      <div>
+        <Container>
+          <BadgesContainerFirst>
+            <BadgeImageFirst
+              src="https://adorn-components.netlify.app/assets/images/cart.svg
+              "
+              alt="avatar-square-1"
+            />
+            <NumberBadgeFirst>10</NumberBadgeFirst>
+          </BadgesContainerFirst>
+  
+          <BadgesContainerSecond>
+            <BadgeImageSecond
+              src="https://adorn-components.netlify.app/assets/images/cart.svg            "
+              alt="avatar-square-2"
+            />
+            <NumberBadgeSecond>12</NumberBadgeSecond>
+          </BadgesContainerSecond>
+  
+          <BadgesContainerThird>
+            <BadgeImageThird
+              src="https://adorn-components.netlify.app/assets/images/cart.svg
+              "
+              alt="avatar-square-3"
+            />
+            <NumberBadgeThird>15</NumberBadgeThird>
+          </BadgesContainerThird>
+        </Container>
+      </div>
+    );
+  };
