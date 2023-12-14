@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head1, Head2, Head3, Head4, Head5, Head6 } from "../Typography/Heading.styled";
+import { Head1, Head2, Head3, Head4, Head5, Head6 } from "../Typography/Typography.Styled";
 
 export const Heading = () => {
   return (

@@ -108,7 +108,7 @@ export const FourthButtonhover=styled.button`
 `
 /* new stories is going to begining */
 
-export const Save_hover=styled.button`
+export const SaveHover=styled.button`
   border: 2px solid; // Add a unit (e.g., pixels)
   background-color: #f3f4f6;
   border-top-left-radius: 2px;
@@ -128,7 +128,7 @@ export const Save_hover=styled.button`
   }
 `
 
-export const Save_new=styled.button`
+export const SaveNew=styled.button`
   border: 2px solid #ff4e54; // Add a unit (e.g., pixels)
   background-color: #ff4e54;
   border-top-left-radius: 2px;

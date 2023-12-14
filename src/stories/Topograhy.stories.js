@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../Typography/Headingtopolography";
+import {Heading} from "../Typography/Typography";
 
 export default {
   title: 'Heading',
