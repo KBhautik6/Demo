@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       Hello World
-      <p>this is p tag</p>
     </div>
   );
 }
