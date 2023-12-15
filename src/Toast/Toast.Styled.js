@@ -1,0 +1,144 @@
+import styled from "styled-components";
+
+export const Container=styled.div`
+    align-items :center;
+    /* background-color: rgb(255, 237, 237); */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius :5px;
+    border-top-right-radius: 5px;
+    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Rubik, sans-serif;
+    font-size :6px;
+    height :40px;
+    justify-content: center;
+    margin-bottom :0px;
+    margin-left :0px;
+    margin-right :0px;
+    margin-top :0px;
+    padding-bottom :15px;
+    padding-left :50px;
+    padding-right :50px;
+    padding-top :15px;
+    row-gap :10px;  
+    width: 904px;
+
+`
+export const Succesoncomponent=styled.div`
+background-color :rgb(246, 249, 252);
+border-bottom-color: rgb(76, 175, 80);
+border-bottom-left-radius :5px;
+border-bottom-right-radius :5px;
+border-bottom-style :solid;
+border-bottom-width :1px;
+border-image-outset :0;
+border-image-repeat :stretch;
+border-image-slice :100%;
+border-image-source :none;
+border-image-width :1;
+border-left-color :rgb(76, 175, 80);
+border-left-style: solid;
+border-left-width :1px;
+border-right-color :rgb(76, 175, 80);
+border-right-style :solid;
+border-right-width :1px;
+border-top-color: rgb(76, 175, 80);
+border-top-left-radius :5px;
+border-top-right-radius: 5px;
+border-top-style :solid;
+border-top-width :1px;
+display: block;
+font-family :Rubik, sans-serif;
+font-size:13px;
+height :18px;
+margin-bottom :0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width :250px;
+padding-bottom: 10px;
+padding-left :10px;
+padding-right :10px;
+padding-top :10px;
+width: 250px;
+`
+
+export const Warningcomponent=styled.div`
+background-color: rgb(246, 249, 252);
+border-bottom-color :rgb(255, 152, 0);
+border-bottom-left-radius :5px;
+border-bottom-right-radius :5px;
+border-bottom-style: solid;
+border-bottom-width :1px;
+border-image-outset :0;
+border-image-repeat :stretch;
+border-image-slice :100%;
+border-image-source :none;
+border-image-width: 1;
+border-left-color :rgb(255, 152, 0);
+border-left-style :solid;
+border-left-width :1px;
+border-right-color :rgb(255, 152, 0);
+border-right-style :solid;
+border-right-width :1px;
+border-top-color :rgb(255, 152, 0);
+border-top-left-radius :5px;
+border-top-right-radius :5px;
+border-top-style :solid;
+border-top-width: 1px;
+display: block;
+font-family: Rubik, sans-serif;
+font-size:13px;
+height :18px;
+margin-bottom :0px;
+margin-left :0px;
+margin-right :0px;
+margin-top :0px;
+max-width :250px;
+padding-bottom :10px;
+padding-left: 10px;
+padding-right :10px;
+padding-top: 10px;
+width: 250px;
+`
+
+export const Dangercomponent=styled.div`
+    background-color :rgb(246, 249, 252);
+border-bottom-color :rgb(244, 67, 54);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-style :solid;
+border-bottom-width :1px;
+border-image-outset :0;
+border-image-repeat: stretch;
+border-image-slice :100%;
+border-image-source :none;
+border-image-width :1;
+border-left-color :rgb(244, 67, 54);
+border-left-style :solid;
+border-left-width :1px;
+border-right-color: rgb(244, 67, 54);
+border-right-style :solid;
+border-right-width :1px;
+border-top-color :rgb(244, 67, 54);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-style :solid;
+border-top-width :1px;
+display :block;
+font-family: Rubik, sans-serif;
+font-size:13px;
+height :18px;
+margin-bottom :0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width :250px;
+padding-bottom: 10px;
+padding-left :10px;
+padding-right :10px;
+padding-top :10px;
+width :250px;
+`
