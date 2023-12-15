@@ -12,4 +12,27 @@ export const theme={
     successhover: '#0d8611',
     activehover: '#fbe6dc',
     offwhite: '#f6f9fc',
+    white:'ffffff',
+    black:'#000000'
 };
+export const avatar={
+    small:{
+        width:'50px',
+        height:'50px'
+    },
+    medium:{
+        width:'60px',
+        height: '60px'
+    }
+    ,
+
+    large:{
+        width:'60px',
+        height:'80px'
+    },
+    default:{
+        width:'70px',
+        height:'70px'
+    }
+
+}
