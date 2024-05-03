@@ -1,8 +1,11 @@
-import React from "react";
-import { Badges } from "../Badges/Badges";
-export default{
-    title:'Badges',
-    component:Badges,
-}
 
-export const Badges_on_Avatar=()=><Badges/>
+import React from 'react';
+import { Badges, YourComponent } from '../Badges/Badges';
+
+export default {
+  title: 'Badges',
+  component: Badges,
+};
+
+export const BadgesStory = () => <YourComponent />;
+export const Cart = () => <Badges />;

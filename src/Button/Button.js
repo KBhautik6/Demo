@@ -1,13 +1,13 @@
 import React from 'react';
-import { StyledButton ,SecondButton, ThridButton, FourthButton, Primarybuttonhover,SecondButtonhover,ThridButtonhover,FourthButtonhover, SaveHover,SaveNew,P1,P2,P3,P4} from './Button.Styled';
+import { PrimaryButton ,SecondaryButton, Primarybuttonhover,SecondButtonhover, SaveHover,SaveNew,PrimaryLink,SecondaryLink,SuccesonLink,WarningLink, SuccesonButton,WarningButton, SuccesonButtonhover,WarningButtonhover} from './Button.Styled';
 export const Button= () => {
   return (
     <div>
       {/* <button>Hello</button> */}
-      <StyledButton>PRIMARY BUTTON</StyledButton>
-      <SecondButton>SECONDARY BUTTON</SecondButton>
-      <ThridButton>SUCESSON BUTTON</ThridButton>
-      <FourthButton>WARNING BUTTON</FourthButton>
+      <PrimaryButton>PRIMARY BUTTON</PrimaryButton>
+      <SecondaryButton>SECONDARY BUTTON</SecondaryButton>
+      <SuccesonButton>SUCESSON BUTTON</SuccesonButton>
+      <WarningButton>WARNING BUTTON</WarningButton>
     </div>
   );
 };
@@ -18,12 +18,12 @@ export const Hover=()=>{
       <SecondButtonhover>
       SECONDARY BUTTON
       </SecondButtonhover>
-      <ThridButtonhover>
+      <SuccesonButtonhover>
         SUCESSON
-      </ThridButtonhover>
-      <FourthButtonhover>
+      </SuccesonButtonhover>
+      <WarningButtonhover>
         WARNING BUTTON
-      </FourthButtonhover>
+      </WarningButtonhover>
     </div>
   );
 };
@@ -65,10 +65,10 @@ export const TextButton=()=>{
   return(
     <div>
       <span>
-      <P1>PRIMARY LINK BUTTON</P1>
-      <P2>SECONDARY LINK BUTTON</P2>
-      <P3>SUCESSON LINK BUTTON</P3>
-      <P4>WARNING LINK BUTTON</P4>
+      <PrimaryLink>PRIMARY LINK BUTTON</PrimaryLink>
+      <SecondaryLink>SECONDARY LINK BUTTON</SecondaryLink>
+      <SuccesonLink>SUCESSON LINK BUTTON</SuccesonLink>
+      <WarningLink>WARNING LINK BUTTON</WarningLink>
       </span>
     </div>
   );
